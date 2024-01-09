@@ -1,3 +1,4 @@
+
 body {
     box-sizing: border-box;
     margin:0;
@@ -37,10 +38,11 @@ body {
     width:50%;
 }
 
-.link {
+.link, .link > a, .link > a:visited {
     color: #E5E7EB;
     font-size: 18px;
-    font-weight:lighter
+    text-decoration: none;
+    font-weight:lighter;
 }
 .content-wrapper1 {
     display:flex;
@@ -148,6 +150,88 @@ body {
 .content-wrapper3 {
     height:50vh;
     background-color: #e5e7eb;
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
 }
+
+.highlight-quote {
+    color: #1F2937;
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+
+    box-sizing: border-box;
+    
+}
+
+.attribution {
+    color:#1F2937;
+    font-weight: bold;
+    font-size:24px;
+    text-align: right;
+}
+
+.content-wrapper4 {
+
+    background-color: #3882F6;
+
+    border-radius:15px;
+
+    margin-left:15vw;
+    margin-right:15vw;
+    margin-top:15vh;
+    margin-bottom:15vh;
+    height:30vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10vw;
+
+}
+
+.call-text > h2 {
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size:24px;
+
+}
+
+.call-text > p {
+    color: #E5E7EB;
+    font-size:18px;
+    font-weight:lighter;
+}
+
+.content-wrapper4 > button {
+    border-radius:8px;
+    border:0px;
+    width:135px;
+    height:40px;
+
+    background-color: #3882F6;;
+
+    font-weight:bolder;
+    color:white;
+    border: 1px solid white;
+    font-size:18px;
+}
+
+.footer {
+    background-color:#1F2937;
+    min-height: 100px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color:white;
+}
+
 /*  BG COLOR DARK: #1F2937
     HERO MAIN TEXT: #F9FAF8
