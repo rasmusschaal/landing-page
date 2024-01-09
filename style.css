@@ -1,0 +1,153 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.header-wrapper {
+
+    background-color:#1F2937;
+    min-height: 50px;
+    
+    display:flex;
+    justify-content: center;
+
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+    padding-bottom:0;
+}
+
+.header-logo {
+    width: 50%;
+    padding: 5px;
+}
+
+.header-logo p {
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size:24px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:20px;
+    width:50%;
+}
+
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight:lighter
+}
+.content-wrapper1 {
+    display:flex;
+    padding-left:15vw;
+    padding-right:15vw;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    gap:50px;
+
+    background-color: #1F2937;
+}
+
+.content-wrapper1 {
+    display:flex;
+    
+    justify-content: center;
+}
+.hero-text {
+
+    display:flex;
+    flex-direction: column;
+
+    flex-basis:100%;
+}
+
+.hero-text > h1 {
+    color: #F9FAF8;
+    font: size 48px;
+    font-weight:bolder;
+    margin:0;
+}
+
+.hero-text > p {
+    color: #E5E7EB;
+    font-size:18px;
+    font-weight:lighter;
+}
+
+.hero-text > button {
+    border-radius:8px;
+    border:0px;
+    width:135px;
+    height:40px;
+
+    background-color: #3882F6;
+
+    font-weight:bolder;
+    color:white;
+    font-size:18px;
+
+}
+
+.photo {
+    display:flex;
+    flex-basis:100%;
+    
+    justify-content:center;
+    align-items: center;
+
+    color:white;
+    background-color: rgb(134, 155, 178);
+    border-radius:2%;
+}
+
+.content-wrapper2 {
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+}
+
+.content-wrapper2 > h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align:center;
+    margin:50px;
+
+}
+
+.illustrations {
+    display:flex;
+}
+
+.graph-group {
+    flex-direction: column;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom:50px;
+}
+
+.frame {
+    width: 125px;
+    height: 125px;
+    border-radius: 8%;
+    border:3px solid dodgerblue;
+}
+
+.descript {
+    text-align:center;
+    margin-top: 30px;
+    font-weight:lighter;
+}
+
+.content-wrapper3 {
+    height:50vh;
+    background-color: #e5e7eb;
+}
+/*  BG COLOR DARK: #1F2937
+    HERO MAIN TEXT: #F9FAF8
